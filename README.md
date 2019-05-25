@@ -1,5 +1,5 @@
 # darknetHeadDetector
-´cd darknetHeadDetector´  
+`cd darknetHeadDetector`  
 make # CUDA, CUDNN, OPENCV dependencies  
 * bash ./headDetector/download.sh
 * bash ./headDetector/setup.sh
