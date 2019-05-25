@@ -1,6 +1,6 @@
 # darknetHeadDetector
-* cd darknetHeadDetector
-* make # CUDA, CUDNN, OPENCV dependencies
+´cd darknetHeadDetector´  
+make # CUDA, CUDNN, OPENCV dependencies  
 * bash ./headDetector/download.sh
 * bash ./headDetector/setup.sh
 * ./darknet detector train ./headDetector/config/headData.data ./headDetector/config/detectHead.cfg ./headDetector/darknet53.conv.74 > ./headDetector/train.log
