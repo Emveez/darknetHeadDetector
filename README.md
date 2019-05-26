@@ -1,5 +1,5 @@
 # darknetHeadDetector
-Source code to train a head detector using the darknet framework. The dataset comes from [here](https://www.di.ens.fr/willow/research/headdetection/) and it's parsed from VOC format to darknet format using convert2Yolo. This give a dataset of ~225k images. For fast inference the yolov3-tiny architecture is used. 
+Source code to train a head detector using the darknet framework. The dataset comes from [here](https://www.di.ens.fr/willow/research/headdetection/) and it's parsed from VOC format to darknet format using convert2Yolo. This give a dataset of ~225k images. For fast inference the yolov3-tiny architecture is used. The cfg is under /headDetector/config/detectHead.cfg and the weights can be downloaded [here](https://onedrive.live.com/download?cid=7C672603C5F48022&resid=7C672603C5F48022%2145376&authkey=AIut9qNBrwKo6ck).
 
 # Train instruction
 `cd darknetHeadDetector`  
