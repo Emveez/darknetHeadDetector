@@ -10,4 +10,5 @@ Source code to train a head detector using the darknet framework. The dataset co
   
 
 # Test detection
+A sample video of detection can be found [here](https://www.youtube.com/watch?v=I1ZFAEFvG5E) or can be tested with   
 `./darknet detector test headDetector/config/headData.data headDetector/config/detectHead.cfg headDetector/checkpointWeights/detectHead_58000.weights data/person.jpg -thresh 0.1337`
